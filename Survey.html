@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"/>
+    <title>Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">Please fill out this survey and click the submit button</p>
+    <form id="survey-form">
+      <fieldset>
+<label id="name-label">Name <input id="name" type="text" required placeholder="Enter Your Name"/></label>
+<label id="email-label">Email <input id="email" type="email" required placeholder="Enter Your Email"/></label>
+<label id="number-label">Age <input id="number" type="number" required min="18" max="62" placeholder="Enter Your Age"/></label>
+</fieldset>
+<fieldset>
+  <label for="dropdown" >How many hours per week do you spend coding
+  <select id="dropdown">
+    <option>(select one)</option>
+    <option>1-5 hours</option>
+    <option>5-10 hours</option>
+    <option>10-20 hours</option>
+    <option>20+ hours</option>
+  </select>
+  </fieldset>
+  <fieldset>
+  </label>
+<legend>What is your current level of programming?</legend>
+        <label for="beginner"><input id="beginner" type="radio" value="option1" name="level" class="inline" /> Beginner</label>
+        <label for="intermediate"><input id="intermediate" type="radio" value="option2" name="level" class="inline"/> Intermediate</label>
+        <label for="advanced"><input id="advanced" type="radio" value="option3" name="level" class="inline"/> Advanced</label>
+    </fieldset>
+    <fieldset>
+        <legend>Which platforms have you used for coding? (Select all that apply)</legend>
+<label for="javascript">
+<input type="checkbox" id="javascript" value="javascript" class="inline">
+JavaScript</label>
+<label for="python">
+<input type="checkbox" id="python" value="python" class="inline">
+Python</label>
+</fieldset>
+<fieldset>
+  <label for="bio">Any additional comments or suggestions?
+    <textarea id="bio" name="bio" rows="5" cols="30" placeholder="I like coding on the beach..."></textarea>
+        </label>
+</fieldset>
+          <input type="submit" value="Submit" id="submit" />
+    </form>
+  </body>
+  </html>

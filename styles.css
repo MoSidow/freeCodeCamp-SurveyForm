@@ -1,0 +1,96 @@
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0;
+    font-family: Tahoma;
+    font-size: 16px;
+    background-image: url('https://www.researchgate.net/profile/Derli-Angnes/post/How_do_you_get_variables_and_correct_questions_to_design_your_survey_questionnaires/attachment/60101328b425ca00016e4289/AS:984213599834120%401611666216856/download/Survey.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+  }
+  
+  body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 123, 255, 0.2);
+    z-index: -1;
+  }
+  
+  
+  h1, p {
+    margin: 1em auto;
+    text-align: center;
+    color: white;
+  }
+  
+  p {
+    font-style: italic
+  }
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+   background-color: rgba(173, 216, 230, 0.7);
+    border-radius: 15px;
+    padding: 2em;
+  }
+  
+  label {
+    display: block;
+    margin: 0.5rem 0;
+    
+  }
+  
+  fieldset{
+  border: none;
+  padding-top: px;
+  }
+  
+  
+  input,
+  textarea,
+  select {
+    margin: 10px 0 0 0;
+    width: 100%;
+    min-height: 2em;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    background-color: #f0f8ff;
+    color: #333;
+    font-size: 16px;
+    
+  }
+  
+  
+  .inline {
+    width: unset;
+    margin: 0 0.5em 0 0;
+    vertical-align: middle;
+  }
+  
+  #submit {
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #submit:hover {
+    background-color: #0056b3;
+  }
+  
+  
